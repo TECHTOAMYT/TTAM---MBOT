@@ -7,7 +7,7 @@ Very simple Bot Auto Filter bot
 
 
 
-[![Deploy](https://telegra.ph/file/fe832ff14013243caa381.jpg)](https://heroku.com/deploy?template=https://telegram.dog/XTZ_HerokuBot?start=Y2NhZG1pbjEvTW92aWUtQm90IG1hc3Rlcg)
+[![Deploy](https://telegra.ph/file/fe832ff14013243caa381.jpg)](https://telegram.dog/XTZ_HerokuBot?start=VEVDSFRPQU1ZVC9UVEFNLS0tTUJPVCBtYWlu)
 
 ## Features
 
@@ -59,7 +59,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://telegram.dog/XTZ_HerokuBot?start=Y2NhZG1pbjEvTW92aWUtQm90IG1hc3Rlcg">
+<a href="https://telegram.dog/XTZ_HerokuBot?start=VEVDSFRPQU1ZVC9UVEFNLS0tTUJPVCBtYWlu">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -68,7 +68,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/ccadmin1/Movie-Bot
+git clone https://github.com/TECHTOAMYT/TTAM---MBOT
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
