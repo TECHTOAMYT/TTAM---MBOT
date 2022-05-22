@@ -104,7 +104,7 @@ python3 bot.py
 • /channel - to get list of total connected channels
 • /broadcast - to broadcast a message to all Bot users
 ```
-## Thanks to 
+## More info
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
 * Youtube channel [VIST](https://youtube.com/c/TECHTOAM)
 🥷 ›› [Telegram](https://t.me/TECHTOAM)
