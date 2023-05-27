@@ -77,6 +77,13 @@ python3 bot.py
 </p>
 </details>
 
+<details><summary>Deploy To Railway</summary>
+  <a>
+  [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/cuaAIu?referralCode=ab1RDo)
+    </a>
+  </details>
+  
+  
 
 ## Commands
 ```
