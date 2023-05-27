@@ -77,6 +77,16 @@ python3 bot.py
 </p>
 </details>
 
+<details><summary>Deploy To Railway</summary>
+
+ [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/cuaAIu?referralCode=ab1RDo)
+
+ </pre>
+
+</details>
+
+ 
+ </pre>
 
 ## Commands
 ```
@@ -89,7 +99,7 @@ python3 bot.py
 * /del - delete a filter
 * /delall - delete all filters
 * /deleteall - delete all index(autofilter)
-* /delete - delete a specific file from index.
+* /delete - delete a specific file from index
 * /info - get user info
 * /id - get tg ids.
 * /imdb - fetch info from imdb.
