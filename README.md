@@ -79,14 +79,21 @@ python3 bot.py
 
 <details><summary>Deploy To Railway</summary>
 
- [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/cuaAIu?referralCode=ab1RDo)
+<p>
 
- </pre>
+<br>
+
+<a href="https://railway.app/template/0WjlPg?referralCode=ab1RDo">
+
+  <img src="https://railway.app/button.svg" alt="Deploy">
+
+</a>
+
+</p>
 
 </details>
 
- 
- </pre>
+
  
  <details><summary>Deploy To Koyeb</summary>
 
