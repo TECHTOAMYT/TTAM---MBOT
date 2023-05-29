@@ -87,6 +87,24 @@ python3 bot.py
 
  
  </pre>
+ 
+ <details><summary>Deploy To Koyeb</summary>
+
+<p>
+
+<br>
+
+<a>
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/TECHTOAMYT/TTAM---MBOT&branch=main&name=ttamtgbotn)
+
+</a>
+
+</p>
+
+</details>
+ 
+
 
 ## Commands
 ```
