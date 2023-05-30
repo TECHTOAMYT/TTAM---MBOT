@@ -54,15 +54,12 @@ single or double buttons [True/False].
 ## Deploy
 You can deploy this bot anywhere.
 
-##You can deploy easily using @Xtz_HerokuBot
+##You can deploy easily using Heroku Website
 
 <details><summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://telegram.dog/XTZ_HerokuBot?start=VEVDSFRPQU1ZVC9UVEFNLS0tTUJPVCBtYWlu">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TECHTOAMYT/TTAM---MBOT)
+
 </details>
 
 <details><summary>Deploy To VPS</summary>
