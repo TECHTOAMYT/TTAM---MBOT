@@ -108,7 +108,11 @@ python3 bot.py
 
 </details>
  
+<details><summary>Deploy To Render</summary>
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/TECHTOAMYT/TTAM---MBOT)
+
+</details>
 
 ## Commands
 ```
