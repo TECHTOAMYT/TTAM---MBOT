@@ -1,23 +1,43 @@
 services:
-  - name: TECHTOAMBOT
-    type: worker
+  - name: techtobot
+    type: web
     env: python
-    region: oregon # Change region based on your preference
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
-    plan: free
+    build:
+      dockerfile: Dockerfile
     envVars:
       - key: SESSION
-        sync: false
+        value: Media_search
       - key: API_ID
-        sync: false
+        value: "<your_api_id>"
       - key: API_HASH
-        sync: false
+        value: "<your_api_hash>"
       - key: BOT_TOKEN
-        sync: false
-      - key: LOG_STR
-        sync: false
+        value: "<your_bot_token>"
+      - key: CACHE_TIME
+        value: "300"
+      - key: USE_CAPTION_FILTER
+        value: "False"
+      - key: PICS
+        value: "https://telegra.ph/file/7e56d907542396289fee4.jpg"
+      - key: ADMINS
+        value: "<your_admin_id>"
+      - key: CHANNELS
+        value: "0"
+      - key: AUTH_USERS
+        value: ""
       - key: DATABASE_URI
-        sync: false
+        value: "<your_mongodb_uri>"
       - key: DATABASE_NAME
-        sync: false
+        value: "Rajappan"
+      - key: COLLECTION_NAME
+        value: "Telegram_files"
+      - key: LOG_CHANNEL
+        value: "0"
+      - key: SUPPORT_CHAT
+        value: "TECHTOAM"
+      - key: IMDB
+        value: "True"
+      - key: SPELL_CHECK_REPLY
+        value: "True"
+      - key: PROTECT_CONTENT
+        value: "False"
