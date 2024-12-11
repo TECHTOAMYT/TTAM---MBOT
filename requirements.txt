@@ -7,3 +7,7 @@ umongo==3.0.1
 requests
 bs4
 imdbpy
+
+pyrogram
+pymongo
+dnspython
