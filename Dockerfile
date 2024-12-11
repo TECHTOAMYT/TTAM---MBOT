@@ -1,30 +1,23 @@
+# Use Python 3.8 slim-buster as base image
 FROM python:3.8-slim-buster
 
-RUN apt update && apt upgrade -y
-RUN apt install git -y
-COPY requirements.txt /requirements.txt
+# Update the package list and install git (if needed)
+RUN apt update && apt upgrade -y && apt install git -y
 
-RUN cd /
-RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /EvaMaria
-WORKDIR /EvaMaria
-COPY start.sh /start.sh
-CMD ["/bin/bash", "/start.sh"]
-
-
-FROM python:3.9
-
-# Set working directory
+# Set the working directory for the app
 WORKDIR /app
 
-# Copy all files
+# Copy the requirements.txt to the container
+COPY requirements.txt /app/requirements.txt
+
+# Install pip dependencies
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+# Copy the rest of the application code
 COPY . /app
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Expose port (optional)
+# Expose the port (optional, only if needed for web app)
 EXPOSE 8080
 
-# Run the bot
+# Set the command to run the bot (starting point)
 CMD ["python", "bot.py"]
