@@ -1,0 +1,23 @@
+services:
+  - name: TECHTOAMBOT
+    type: worker
+    env: python
+    region: oregon # Change region based on your preference
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    plan: free
+    envVars:
+      - key: SESSION
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: LOG_STR
+        sync: false
+      - key: DATABASE_URI
+        sync: false
+      - key: DATABASE_NAME
+        sync: false
