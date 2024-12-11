@@ -10,3 +10,21 @@ RUN mkdir /EvaMaria
 WORKDIR /EvaMaria
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
+
+
+FROM python:3.9
+
+# Set working directory
+WORKDIR /app
+
+# Copy all files
+COPY . /app
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expose port (optional)
+EXPOSE 8080
+
+# Run the bot
+CMD ["python", "bot.py"]
